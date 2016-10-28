@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>"Sherlock" Quiz</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+<section class="col-xs-12">
+
+<h1>"Sherlock" Quiz</h1>
+  <p>"I'm not a psychopath, I'm a high-functioning sociopath. Do your research." Have you done your research? Think you know "Sherlock"? Take this quiz based off of the<a href="https://en.wikipedia.org/wiki/Sherlock_(TV_series)">"Sherlock" Wikipedia page</a>, test your knowledge and share some of your own opinions. It's elementary, Watson.
+  </p>
+
+<form>
+  <div class="form-group">
+    <label for="inputAddress">What is Sherlock's Address?</label>
+    <input class="form-control" type="text" id="inputAddress" placeholder="Sherlock's iconic address">
+  </div>
+
+  <div class="form-group">
+    <label for="inputActor">Which actor plays Sherlock Holmes in Sherlock?</label>
+    <input class="form-control" type="text" id="inputActor" placeholder="Unbelieveably talented actor's name">
+  </div>
+
+  <div class="form-group">
+  <label>Sherlock was created by</label>
+  <div class="radio">
+    <label>
+      <input name="creators" type="radio" id="arnoldPrice" value="arnold-and-price">
+      Arnold and Price
+    </label>
+  </div>
+  <div class="radio">
+      <label>
+        <input name="creators" type="radio" id="cumberbatchFreeman" value="cumberbatch-and-freeman">
+        Cumberbatch and Freeman
+      </label>
+  </div>
+    <div class="radio">
+      <label>
+        <input name="creators" type="radio" id="moffatGatiss" value="moffat-and-gatiss">
+        Moffat and Gatiss
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input name="creators" type="radio" id="moriartyMycroft" value="moriarty-and-mycroft">
+        Moriarty and Mycroft
+      </label>
+      </div>
+    </div>
+
+
+  <div class="form-group">
+    <label>Which actors have made an appearance on Sherlock?</label>
+  <div class="checkbox">
+      <label>
+        <input name="supporting" type="checkbox" id="markGatiss" value="mark-gatiss">
+        Mark Gatiss
+      </label>
+    </div>
+      <div class="checkbox">
+          <label>
+            <input name="supporting" type="checkbox" id="unaStubbs" value="una-stubbs">
+          Una Stubbs
+        </label>
+      </div>
+        <div class="checkbox">
+          <label>
+            <input name="supporting" type="checkbox" id="amandaAbbington" value="amanda-abbington">
+            Amanda Abbington
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input name="supporting" type="checkbox" id="rayHolman" value="ray-holman">
+            Ray Holman
+          </label>
+          </div>
+        </div>
+
+  <div class="form-group">
+  <label for="inputEpisode">What is your favorite episode of "Sherlock"?</label>
+  <select class="form-control" name="favoriteEpisode" id="inputEpisode">
+  <option value="pink">A Study in Pink</option>
+  <option value="banker">The Blind Banker</option>
+  <option value="game">The Great Game</option>
+  <option value="belgravia">A Scandal in Belgravia</option>
+  <option value="hounds">The Hounds of Baskerville</option>
+  <option value="fall">The Reichenbach Fall</option>
+  <option value="hearse">The Empty Hearse</option>
+  <option value="three">The Sign of Three</option>
+  <option value="vow">His Last Vow</option>
+</select>
+</div>
+
+<label for="inputOpinion">Why is that episode your favorite?</label>
+<div class="form-group">
+  <textarea class="form-control" name="opinion" id="inputOpinion">
+  </textarea>
+</div>
+
+<input class="btn btn-default"
+  type="submit" value="submit">
+<input class="btn btn-default"
+  type="reset" value="reset">
+</form>
+</section>
+</div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
